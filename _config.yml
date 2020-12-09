@@ -1,6 +1,6 @@
 # Setup
 title:               Allen Lee's blog
-tagline:             'Programmer turned cancer fighter'
+tagline:             'Programmer turned cancer survivor'
 description:         'Personal blog of programmer and cancer survivor Allen Lee. '
 url:                 http://allenlee.net
 baseurl:             ''
@@ -19,4 +19,4 @@ plugins:
 
 # Custom vars
 version:             1.1.0
-google_analytics_id: #UA-XXXX-Y
+google_analytics_id: UA-56089889-1

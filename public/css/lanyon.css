@@ -41,14 +41,16 @@ body {
 }
 
 html {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+/*  font-family: "PT Serif", Georgia, "Times New Roman", serif;*/
+
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #313131;
-  letter-spacing: -.025rem;
+/*  letter-spacing: -.025rem;*/
+
 }
 
 
@@ -301,10 +303,12 @@ a.sidebar-nav-item:focus {
  * Each post is wrapped in `.post` and is used on default and post layouts. Each
  * page is wrapped in `.page` and is only used on the page layout.
  */
-
+.posts {
+  margin-top: 4em;
+}
 .page,
 .post {
-  margin-bottom: 1em;
+  margin-bottom: 4em;
 }
 
 /* Blog post or page title */

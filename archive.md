@@ -1,20 +1,17 @@
 ---
-layout: default
-title: Home
+layout: page
+title: Archive
 ---
 
 <div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
+  {% for post in site.posts %}
+    <h2 class="post-title">
       <a href="{{ post.url | absolute_url }}">
         {{ post.title }}
       </a>
-    </h1>
+    </h2>
 
     <span class="post-date">{{ post.date | date_to_string: "ordinal", "US" }}</span>
-    {{ post.content }}
-  </div>
   {% endfor %}
 </div>
 
